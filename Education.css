@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.isi-top{
+    width: 100%;
+    height: 7vh;
+}
+.top{
+    width: 100%;
+    height: 7vh;
+    background: linear-gradient(red,rgb(222, 80, 80));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bks-top{
+    width: 15%;
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bks-top a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.bks-top a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bks-top2{
+    width: 80%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 17%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 17%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.box a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.box-1 a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar{
+    width: 100%;
+    height: 93vh;
+     background: linear-gradient(rgb(174, 50, 118),rgb(228, 46, 46));
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.bks-navbar{
+    width: 80%;
+    height: 40vh;
+    background-color: white;
+    animation: kanan 1s ease-in-out forwards;
+}
+@keyframes kanan{
+    0%{
+        transform: translateX(-70%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.education{
+    width: 100%;
+    height: 8vh;
+}
+.bks-education{
+    width: 15%;
+    height: 8vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: black;
+}
+.pembatas{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    align-items: end;
+}
+.bks-pembatas{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kotak{
+    width: 30%;
+    height: 20vh;
+    animation: bawah 1s ease-in-out forwards;
+}
+@keyframes bawah{
+    0%{
+        transform: translateY(250%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.kotak-2{
+    width: 30%;
+    height: 20vh;
+    animation: bawah 2s ease-in-out forwards;
+}
+@keyframes bawah{
+    0%{
+        transform: translateY(270%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.kotak-3{
+    width: 30%; 
+    height: 20vh;
+    animation: bawah 3s ease-in-out forwards;
+}
+@keyframes bawah{
+    0%{
+        transform: translateY(150%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.Tahun{
+    width: 100%;
+    height: 5vh;
+}
+.bks-tahun{
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.bks-tahun2{
+    width: 67%;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: top;
+}
+.profesi{
+    width: 100%;
+    height: 3vh;
+}
+.sekolah{
+    width: 100%;
+    height: 5vh;
+}
+.bks-sekolah{
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.Tahun-2{
+    width: 100%;
+    height: 5vh;
+}
+.bks-tahun-2{
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.bks-tahun-2-3{
+    width: 57%;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.Tahun-3{
+    width: 100%;
+    height: 5vh;
+}
+.bks-tahun-3{
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.bks-tahun-3-3{
+    width: 42%;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.previous-page{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    animation: atas 3s ease-in-out forwards;
+}
+@keyframes atas{
+    0%{
+        transform: translateY(450%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.bks-previous-page{
+    width: 30%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-previous-page button{
+    width: 40%;
+    height: 5vh;
+    border: none;
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.bks-previous-page button:hover{
+    transform: scale(1.1);
+}   
+.next-page{
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next-page button{
+    width: 40%;
+    height: 5vh;
+    border: none;
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.next-page button:hover{
+    transform: scale(1.1);
+}
+@media(max-width: 768px){
+            .isi-top{
+        width: 100%;
+        height: 10vh;
+        overflow: scroll;
+    }
+    .top{
+        width: 200%;
+        height: 10vh;
+    }
+    .bks-top{
+        width: 30%;
+        height: 10vh;
+        margin-left: 10px;
+    }
+    .bks-top a{
+        font-size: 18px;
+    }
+     .bks-top2{
+        width: 300%;
+        height: 10vh;
+        margin-left: 10px;
+        overflow: scroll;
+    }
+    .box{
+        width: 200%;
+        height: 10vh;
+    }
+    .box-1{
+        width: 200%;
+        height: 7vh;
+        border: none;
+    }
+    .box a{
+        font-size: 18px;
+    }  
+    .box-1 a{
+        font-size: 18px;
+    }
+    .navbar{
+        width: 100%;
+        height: 120vh;
+    }
+    .bks-navbar{
+        width: 90%;
+        height: 90vh;
+    }
+    .education{
+        width: 100%;
+        height: 10vh;
+    }
+    .bks-education{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bks-pembatas{
+        width: 100%;
+        height: 20vh;
+        flex-wrap: wrap;
+    }
+    .kotak,.kotak-2,.kotak-3{
+        width: 100%;
+        height: 20vh;
+    }
+    .bks-tahun{
+        width: 100%;
+        height: 5vh;
+    }
+    .bks-tahun2{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bks-sekolah{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bks-tahun-2{
+        width: 100%;
+        height: 5vh;
+    }
+    .bks-tahun-2-3{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bks-tahun-3{
+        width: 100%;
+        height: 5vh;
+    }
+    .bks-tahun-3-3{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .previous-page{
+        width: 100%;
+        height: 10vh;
+        margin-top: 280px;
+    }
+    .bks-previous-page,.next-page{
+        width: 50%;
+        height: 6vh;
+        font-size: 10px;
+    }
+    .bks-previous-page button,.next-page button{
+        width: 40%;
+        height: 5vh;
+        font-size: 10px;
+    }
+}

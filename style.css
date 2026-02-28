@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(174, 50, 118),rgb(228, 46, 46));
+}
+.top{
+    width: 100%;
+    height: 7vh;
+    background: linear-gradient(red,rgb(222, 80, 80));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-1{
+    width: 100%;
+    height: 7vh;
+}
+.bks-top{
+    width: 15%;
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bks-top a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.bks-top a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bks-top2{
+    width: 80%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 17%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 17%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.box-1 a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.box a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+        /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.name{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.webdesign{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-logo{
+    width: 25%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bks-logo2{
+    width: 10%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.bks-logo2 img{
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+}
+.bks-logo2-3{
+    width: 12%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.bks-logo2-3 img{
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+}
+.isi{
+    width: 100%;
+    height: 70vh;
+}
+.kotak{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kotak-about{
+    width: 80%;
+    height: 50vh;
+    background-color: white;
+    transform: translateY(45px);
+    animation: bawah 1s ease forwards;
+}
+@keyframes bawah{
+    to{
+        transform: translateY(0);
+    }
+}
+.bks-kotak-about{
+    width: 100%;
+    height: 8vh;
+}
+.kotak-name{
+    width: 10%;
+    height: 8vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.profile{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-profile{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile2{
+    width: 37%;
+    height: 30vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bks-profile2{
+    width: 93%;
+    height: 30vh;
+    transform: translateY(100px);
+    animation: daribawah 1s ease forwards;
+}
+/*Ini code Chat GPT*/
+@keyframes daribawah{
+    to {
+        transform: translateY(0);
+    }
+}
+.bks-profile2 img{
+    width: 100%;
+    height: 30vh;
+}
+.lorem-2{
+    width: 60%;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem{
+    width: 100%;
+    height: 28vh;
+    font-size: 15px;
+    background: linear-gradient(blue,rgb(158, 158, 255));
+    animation: geserkanan 1s ease forwards;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+@keyframes geserkanan{
+    from {
+        transform: translateX(15%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.lorem p{
+    color: white;
+    font-weight: bold;
+    animation: geserkiri 1s ease forwards;
+}
+/*Ini code Chat GPT*/
+@keyframes geserkiri{
+    from {
+        transform: translateX(6%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.kotak-name2{
+    font-weight: bold;
+}
+.Button{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: kanan 2s ease forwards;
+}
+@keyframes kanan{
+    from {
+        transform: translateX(10%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.bks-button{
+    width: 40%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.bks-button button{
+    width: 30%;
+    height: 5vh;
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.bks-button button:hover{
+    transform: scale(1.1);
+}
+.previous-page{
+    width: 40%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.previous-page button{
+    width: 30%;
+    height: 5vh;
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.previous-page button:hover{
+    transform: scale(1.1);
+}
+@media(max-width: 768px){
+    .navbar{
+        width: 100%;
+        height: 120vh;
+    }
+    .top-1{
+        width: 100%;
+        height: 10vh;
+        overflow: scroll;
+    }
+    .top{
+        width: 200%;
+        height: 10vh;
+        overflow: scroll;
+    }
+    .bks-top{
+        width: 30%;
+        height: 10vh;
+        margin-left: 20px;
+    }
+    .bks-top a{
+        font-size: 18px;
+    }
+    .box{
+        width: 200%;
+        height: 10vh;
+    }
+    .box a{
+        font-size: 18px;
+    }
+    .box-1{
+        width: 200%;
+        height: 10vh;
+    }
+    .box-1 a{
+        font-size: 18px;
+    }
+    .bks-top2{
+        width: 300%;
+        height: 10vh;
+        margin-left: 10px;
+        overflow: scroll;
+    }
+    .name{
+        width: 100%;
+        height: 8vh;
+    }
+    .name h1{
+        font-size: 30px;
+    }
+    .bks-logo{
+        width: 50%;
+        height: 5vh;
+    }
+    .bks-logo2{
+        width: 20%;
+        height: 5vh;
+    }
+    .bks-logo2-3{
+        width: 20%;
+        height: 5vh;
+    }
+    .kotak-name{
+        width: 100%;
+        height: 8vh;
+        justify-content: center;
+    }
+    .lorem{
+        width: 1200%;
+        font-size: 13px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile2{
+        width: 100%;
+        height: 30vh;
+    }
+    .Button{
+        width: 100%;
+        height: 5vh;
+        margin-top: 200px;
+    }
+    .bks-profile{
+        flex-wrap: wrap;
+    }
+    .bks-profile2{
+        width: 100%;
+    }
+    .kotak-about{
+        width: 90%;
+        height: 80vh;
+        margin-top: 250px;
+    }
+    .previous-page{
+        width: 100%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .previous-page button{
+        width: 38%;
+        font-size: 8px;
+    }
+    .lorem-2{
+        width: 100%;
+        height: 30vh;
+    }
+    .bks-button{
+        width: 100%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .bks-button button{
+        width: 38%;
+        font-size: 8px;
+    }
+}

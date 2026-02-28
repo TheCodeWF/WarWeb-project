@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.isi-top{
+    width: 100%;
+    height: 7vh;
+}
+.top{
+    width: 100%;
+    height: 7vh;
+    background: linear-gradient(red,rgb(222, 80, 80));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bks-top{
+    width: 15%;
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bks-top a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.bks-top a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bks-top2{
+    width: 80%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 17%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 17%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.box a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.box-1 a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar{
+    width: 100%;
+    height: 93vh;
+    background: linear-gradient(rgb(174, 50, 118),rgb(228, 46, 46));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-navbar{
+    width: 80%;
+    height: 40vh;
+    background-color: white;
+}
+.social{
+    width: 100%;
+    height: 10vh;
+}
+.bks-social{
+    width: 22%;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.pembatas{
+    width: 100%;
+    height: 8vh;
+}
+.background-social{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.bks-background-social{
+    width: 25%;
+    height: 10vh;
+}
+.back-social{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bks-back-social{
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 15%;
+    height: 5vh;
+}
+.logo img{
+    width: 100%;
+    height: 5vh;
+}
+.name-social{
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.bks-background-social2{
+    width: 25%;
+    height: 10vh;
+}
+.logo2{
+    width: 15%;
+    height: 5vh;
+}
+.logo2 img{
+    width: 100%;
+    height: 5vh;
+}
+.bks-background-social3{
+    width: 25%;
+    height: 10vh;
+}.previous-page{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.bks-previous-page{
+    width: 30%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-previous-page button{
+    width: 40%;
+    height: 5vh;
+    border: none;
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.bks-previous-page button:hover{
+    transform: scale(1.1);
+}   
+.next-page{
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next-page button{
+    width: 40%;
+    height: 5vh;
+    border: none;
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.next-page button:hover{
+    transform: scale(1.1);
+}
+@media(max-width:768px){
+                    .isi-top{
+        width: 100%;
+        height: 10vh;
+        overflow: scroll;
+    }
+    .top{
+        width: 200%;
+        height: 10vh;
+    }
+    .bks-top{
+        width: 30%;
+        height: 10vh;
+        margin-left: 10px;
+    }
+    .bks-top a{
+        font-size: 18px;
+    }
+     .bks-top2{
+        width: 300%;
+        height: 10vh;
+        margin-left: 10px;
+        overflow: scroll;
+    }
+    .box{
+        width: 200%;
+        height: 10vh;
+    }
+    .box-1{
+        width: 200%;
+        height: 7vh;
+        border: none;
+    }
+    .box a{
+        font-size: 18px;
+    }  
+    .box-1 a{
+        font-size: 18px;
+    }
+    .bks-navbar{
+        width: 90%;
+        height: 50vh;
+    }
+    .bks-social{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pembatas{
+        width: 100%;
+        height: 4vh;
+    }
+    .background-social{
+        width: 100%;
+        height: 10vh;
+        flex-wrap: wrap;
+    }
+    .bks-background-social,.bks-background-social2,.bks-background-social3{
+        width: 100%;
+        height: 8vh;
+    }
+            .previous-page{
+        width: 100%;
+        height: 10vh;
+        margin-top: 95px;
+    }
+    .bks-previous-page,.next-page{
+        width: 50%;
+        height: 6vh;
+        font-size: 10px;
+    }
+    .bks-previous-page button,.next-page button{
+        width: 40%;
+        height: 5vh;
+        font-size: 10px;
+    }
+}

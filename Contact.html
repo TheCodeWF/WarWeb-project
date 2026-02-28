@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WarWeb</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="shortcut icon" href="c:\Users\asusa\Downloads\letter-w.png" type="image/x-icon">
+</head>
+    <!--Ini kode dari chatgpt-->
+        <script>
+  const form = document.getElementById("contactForm");
+  const popup = document.getElementById("popup");
+
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    if (form.checkValidity()) {
+      popup.style.display = "flex";
+      form.reset();
+    }
+  });
+
+  function closePopup() {
+    document.getElementById("popup").style.display = "none";
+  }
+  function closePopup(){
+    location.reload();
+  }
+  function sendMessage(){
+  const email = document.getElementById("email").value.trim();
+  const subject = document.getElementById("subject").value.trim();
+  const message = document.getElementById("message").value.trim();
+
+  if (email === "" || subject === "" || message === "") {
+    return; // STOP kalau kosong
+  }
+
+  document.getElementById("popup").style.display = "flex";
+  } 
+</script>
+    <!--Akhir dari kode chatgpt-->
+<body>
+                                    <div class="isi-top">
+                                <div class="top">
+            <div class="bks-top">
+              <a href="Home.html">Home</a>  
+            </div>
+            <div class="bks-top2">
+                <div class="box-1">
+                    <a href="About.html">About Me</a>
+                </div>
+                                <div class="box">
+                    <a href="Projects.html">Projects</a>
+                </div>  
+                                <div class="box">
+                    <a href="Work.html">Work</a>
+                </div>
+                                <div class="box">
+                    <a href="Education.html">Education</a>
+                </div>
+                                <div class="box">
+                    <a href="Language.html">Language</a>
+                </div>
+                                <div class="box">
+                    <a href="Social.html">Media</a>
+                </div>
+                                <div class="box">
+                    <a href="Contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+            </div>
+        <div class="navbar">
+            <div class="bks-navbar">
+                <div class="contact">
+                    <div class="bks-contact">
+                        <h2>Contact</h2>
+                    </div>
+                </div>
+                <div class="Pembatas">
+
+                </div>
+                <div class="back-isi">
+                    <div class="isi">
+                        <form id="contactForm">
+                                                    <div class="Email">
+                            <input type="email" id="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="Pembatas2">
+                            
+                        </div>
+                        <div class="Subject">
+                            <input type="text" id="subject" required>
+                            <label>Subject</label>
+                        </div>
+                        <div class="Pembatas2">
+
+                        </div>
+                        <div class="Message">
+                            <input type="text" id="message" required>
+                            <label>Enter Your Message</label>
+                        </div>
+                        <div class="Send">
+                            <div class="bks-send">
+                                <button  type="button" onclick="sendMessage()">Send Message</button>
+
+                            </div>
+                        </div>
+                        </form>
+                        <div class="popup" id="popup">
+                            <div class="popup-content">
+                                <h1>Message has been sent!</h1>
+                                <button onclick="closePopup()">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                     <div class="previous-page">
+                            <div class="bks-previous-page">
+                                <h3>Previous Page👉</h3>
+                                <button><a href="Social.html">Previous Page</a></button>
+                            </div>
+                        </div>
+            </div>
+        </div>
+</body>
+</html>

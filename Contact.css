@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.isi-top{
+    width: 100%;
+    height: 7vh;
+}
+.top{
+    width: 100%;
+    height: 7vh;
+    background: linear-gradient(red,rgb(222, 80, 80));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bks-top{
+    width: 15%;
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bks-top a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.bks-top a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bks-top2{
+    width: 80%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 17%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 17%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.box a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+.box-1 a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    /*Ini code Chat GPT*/
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar{
+    width: 100%;
+    height: 93vh;
+    background: linear-gradient(rgb(174, 50, 118),rgb(228, 46, 46));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-navbar{
+    width: 80%;
+    height: 74vh;
+    background-color: white;
+    animation: bawah 2s ease-in-out forwards;
+}
+@keyframes bawah{
+    0%{
+        transform: translateY(47px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.contact{
+    width: 100%;
+    height: 8vh;
+}
+.bks-contact{
+    width: 13%;
+    height: 8vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.Pembatas{
+    width: 100%;
+    height: 5vh;
+}
+.Email{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+/*Tutorial dari youtube input*/
+.Email input{
+    width: 110%;
+    height: 5vh;
+    padding: 5px 13px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(226, 226, 226);
+}
+.Email label{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    color: rgb(150, 150, 150);
+    transition: .3s;
+}
+.Email input:focus+label,.Email input:valid+label{
+    top: -15px;
+    color: white;
+    background-color: black;
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-size: 13px;
+}
+/*Akhir dari tutorial input*/
+.back-isi{
+    width: 100%;
+    height: 53vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isi{
+    width: 91%;
+    height: 50vh;
+}
+.Pembatas2{
+    width: 100%;
+    height: 2vh;
+}
+.Subject{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+/*Tuturial Youtube input*/
+.Subject input{
+    width: 110%;
+    height: 5vh;
+        padding: 5px 13px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(226, 226, 226);
+}
+.Subject label{
+        position: absolute;
+    top: 5px;
+    left: 15px;
+    color: rgb(150, 150, 150);
+    transition: .3s;
+}
+.Subject input:focus+label,.Subject input:valid+label{
+    top: -15px;
+    color: white;
+    background-color: black;
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-size: 13px;
+}
+/*Akhir dari youtube tutorial*/
+.Message{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+/*Tutorial dari youtube input*/
+.Message input{
+    width: 110%;
+    height: 22vh;
+    padding: 5px 5px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(226, 226, 226);
+}
+.Message label{
+        position: absolute;
+    top: 10px;
+    left: 15px;
+    color: rgb(150, 150, 150);
+    transition: .3s;
+}
+.Message input:focus+label,.Message input:valid+label{
+    top: -15px;
+    color: white;
+    background-color: black;
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-size: 13px;
+}
+/*Akhir dari tutorial youtube*/
+.Send{
+    width: 100%;
+    height: 5vh;
+}
+.bks-send{
+    width: 15%;
+    height: 5vh;
+}
+.bks-send button{
+    width: 100%;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: linear-gradient(rgb(235, 124, 69),red);
+    color: white;
+    cursor: pointer;
+}
+/*Kode dari chatgpt*/
+.popup {
+  display: none;          /* WAJIB supaya tidak muncul dulu */
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.popup-content{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.popup-content h1{
+    font-size: 30px;
+        background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.popup-content button{
+        width: 10%;
+    height: 7vh;
+    border: none;
+    background: linear-gradient(to left,rgb(255, 103, 103),rgb(154, 154, 255));
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;    
+    font-weight: bold;
+}
+.popup-content button:hover{
+    transform: scale(1.1);
+}
+/*akhir dari kode chatgpt*/
+.previous-page{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.bks-previous-page{
+    width: 30%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bks-previous-page button{
+    width: 40%;
+    height: 5vh;
+    border: none;
+    background: linear-gradient(to right,lightgreen,rgb(155, 233, 255));
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.bks-previous-page button:hover{
+    transform: scale(1.1);
+}   
+@media(max-width:768px){
+                        .isi-top{
+        width: 100%;
+        height: 10vh;
+        overflow: scroll;
+    }
+    .top{
+        width: 200%;
+        height: 10vh;
+    }
+    .bks-top{
+        width: 30%;
+        height: 10vh;
+        margin-left: 10px;
+    }
+    .bks-top a{
+        font-size: 18px;
+    }
+     .bks-top2{
+        width: 300%;
+        height: 10vh;
+        margin-left: 10px;
+        overflow: scroll;
+    }
+    .box{
+        width: 200%;
+        height: 10vh;
+    }
+    .box-1{
+        width: 200%;
+        height: 7vh;
+        border: none;
+    }
+    .box a{
+        font-size: 18px;
+    }  
+    .box-1 a{
+        font-size: 18px;
+    }
+    .bks-navbar{
+        width: 90%;
+        height: 70vh;
+    }
+    .bks-contact{
+        width: 100%;
+        height: 8vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .Pembatas{
+        width: 100%;
+        height: 1vh;
+    }
+    .bks-send{
+        width: 40%;
+        height: 5vh;
+    }
+                .previous-page{
+        width: 100%;
+        height: 5vh;
+        margin-top: 0px;
+    }
+    .bks-previous-page{
+        width: 50%;
+        height: 6vh;
+        font-size: 10px;
+    }
+    .bks-previous-page button{
+        width: 40%;
+        height: 5vh;
+        font-size: 10px;
+    }
+    .popup-content{
+        width: 90%;
+        height: 10vh;
+    }
+    .popup-content h1{
+        font-size: 15px;
+    }
+    .popup-content button{
+        width: 30%;
+    }
+}
