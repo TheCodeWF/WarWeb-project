@@ -38,6 +38,31 @@
 
   document.getElementById("popup").style.display = "flex";
   } 
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  emailjs.init("X3daf0gSkgeaGo41y");
+
+  document.getElementById("contactForm")
+    .addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm(
+        "service_fg8chkg",
+        "template_55zl9st",
+        this
+      ).then(
+        function () {
+          alert("Email Succesfully Send!");
+        },
+        function (error) {
+          alert("Email Cannot Send!");
+          console.log(error);
+        }
+      );
+    });
 </script>
     <!--Akhir dari kode chatgpt-->
 <body>
@@ -85,21 +110,21 @@
                     <div class="isi">
                         <form id="contactForm">
                                                     <div class="Email">
-                            <input type="email" id="email" required>
+                            <input type="email" id="email" name="email" required>
                             <label>Email</label>
                         </div>
                         <div class="Pembatas2">
                             
                         </div>
                         <div class="Subject">
-                            <input type="text" id="subject" required>
+                            <input type="text" id="subject" name="subject" required>
                             <label>Subject</label>
                         </div>
                         <div class="Pembatas2">
 
                         </div>
                         <div class="Message">
-                            <input type="text" id="message" required>
+                            <input type="text" id="message" name="message" required>
                             <label>Enter Your Message</label>
                         </div>
                         <div class="Send">
