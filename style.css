@@ -299,6 +299,11 @@
 }
 .bks-button button:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 5px lightgreen;
+    box-shadow: 0 0 10px lightgreen;
+}
+.bks-button a{
+    text-decoration: none;
 }
 .previous-page{
     width: 40%;
@@ -319,6 +324,11 @@
 }
 .previous-page button:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 5px lightgreen;
+    box-shadow: 0 0 10px lightgreen;
+}
+.previous-page a{
+    text-decoration: none;
 }
 @media(max-width: 768px){
     .navbar{

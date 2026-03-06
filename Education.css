@@ -279,7 +279,12 @@
 }
 .bks-previous-page button:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 5px lightgreen;
+    box-shadow: 0 0 10px lightgreen;
 }   
+.bks-previous-page a{
+    text-decoration: none;
+}
 .next-page{
     width: 30%;
     height: 5vh;
@@ -300,6 +305,11 @@
 }
 .next-page button:hover{
     transform: scale(1.1);
+    box-shadow: 0px 0px 5px lightgreen;
+    box-shadow: 0px 0px 10px lightgreen;
+}
+.next-page a{
+    text-decoration: none;
 }
 @media(max-width: 768px){
             .isi-top{

@@ -156,6 +156,11 @@
 }
 .bks-previous-page button:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 5px lightgreen;
+    box-shadow: 0 0 10px lightgreen;
+}
+.bks-previous-page a{
+    text-decoration: none;
 }
 .next-page{
     width: 30%;
@@ -174,6 +179,11 @@
 }
 .next-page button:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 5px lightgreen;
+    box-shadow: 0 0 10px lightgreen;
+}
+.next-page a{
+    text-decoration: none;
 }
 .previous-page-2{
     width: 100%;
@@ -197,6 +207,8 @@
 }
 .kotak:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 10px black;
 }
 .desk{
     width: 100%;

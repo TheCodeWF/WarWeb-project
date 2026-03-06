@@ -97,6 +97,51 @@
     width: 80%;
     height: 40vh;
     background-color: white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bks-navbar::before{
+        position: absolute;
+    content: '';
+    width: 150%;
+    height: 50%;
+    background: linear-gradient(rgb(0, 110, 255),rgb(255, 26, 0));
+    animation: rotate 4s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+@keyframes rotate{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+.bks-social,.name-social{
+    position: relative;
+    z-index: 5;
+    color: black;
+}
+.logo,.logo2{
+    position: relative;
+    z-index: 5;
+}
+/* Tambahkan ini agar semua konten di dalam bks-background, date, lorem, dll naik ke atas */
+.bks-background, .date, .lorem, .previous-page {
+    position: relative; /* Wajib ada agar z-index berfungsi */
+    z-index: 5;        /* Angka ini lebih tinggi dari elemen ::before */
+}
+.bks-navbar::after{
+    position: absolute;
+    content: '';
+    inset: 5px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 2;
 }
 .social{
     width: 100%;
@@ -194,7 +239,12 @@
 }
 .bks-previous-page button:hover{
     transform: scale(1.1);
+    box-shadow: 0px 0px 5px lightgreen;
+    box-shadow: 0px 0px 10px lightgreen;
 }   
+.bks-previous-page a{
+    text-decoration: none;
+}
 .next-page{
     width: 30%;
     height: 5vh;
@@ -215,6 +265,11 @@
 }
 .next-page button:hover{
     transform: scale(1.1);
+    box-shadow: 0px 0px 5px lightgreen;
+    box-shadow: 0px 0px 10px lightgreen;
+}
+.next-page a{
+    text-decoration: none;
 }
 @media(max-width:768px){
                     .isi-top{
